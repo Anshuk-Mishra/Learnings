@@ -1,0 +1,17 @@
+.card{
+    width: 50%;
+    height: 50vh;
+    margin: 10% auto 2% auto;
+    text-align: center;
+}
+
+.but{
+    width: 50%;
+    margin: auto auto;
+    text-align: center;
+}
+
+button{
+    margin: 1%;
+    padding: 1%;
+}
