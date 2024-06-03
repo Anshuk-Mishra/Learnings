@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px){
+    #elements{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      width: 20%;
+      z-index: 1;
+    }
+  
+    .remove{
+      display: none;
+    }
+  
+    .btn{
+      width: 5%
+    }
+    .hide{
+      display: block;
+      width: 25%;
+    }
+    .keep{
+      background-color: rgb(39, 39, 39);
+      padding: 10%;
+    }
+    .resiz{
+      width: 18%;
+      margin-bottom: 10%;
+    }
+  }
+  @media only screen and (min-width: 768px){
+    .hide{
+      display: none;
+    }
+  }
